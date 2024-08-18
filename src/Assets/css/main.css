@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  height: 100vh;
+}
+.storeImage {
+  width: 500px;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.menuSection {
+  display: flex;
+  gap: 30px;
+}
+.itemsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+}
+
+.itemsContainer p {
+  margin: 10px;
+}
