@@ -1,8 +1,6 @@
 import "./App.css";
 import "./Assets/css/main.css";
 import storepic from "./Assets/media/Storefront1.png";
-import menu from "./products";
-import ProductItem from "./Components/ProductItem";
 import ProductList from "./Components/ProductList";
 function App() {
   return (
