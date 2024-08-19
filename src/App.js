@@ -1,18 +1,11 @@
 import "./App.css";
 import "./Assets/css/main.css";
-import storepic from "./Assets/media/Storefront1.png";
-import ProductList from "./Components/ProductList";
+import { Home } from "./Components/Home";
+import Counter from "./Components/VisitorsButton";
 function App() {
   return (
-    <div className="container">
-      <h1>Crumble Cookies</h1>
-      <p>Where cookies maniacs gather</p>
-      <img
-        className="storeImage"
-        src={storepic}
-        alt="Crumble Cookies store image"
-      />{" "}
-      <ProductList />
+    <div>
+      <Home />
     </div>
   );
 }
