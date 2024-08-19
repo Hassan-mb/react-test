@@ -2,13 +2,13 @@ import React from "react";
 import "../Assets/css/main.css";
 import menu from "../products";
 
-const ProductItem = () => {
+const ProductItem = ({ cookieItem }) => {
   return (
     <div className="menuSection">
       <div className="itemsContainer">
-        <img src={menu[0].image} alt="Chocolate chips cookies image"></img>
-        <p>{menu[0].name}</p>
-        <p>{menu[0].price}</p>
+        <img src={cookieItem.image} alt="Chocolate chips cookies image"></img>
+        <p>{cookieItem.name}</p>
+        <p>{cookieItem.price}</p>
       </div>
     </div>
   );

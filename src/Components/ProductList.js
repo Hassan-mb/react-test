@@ -5,7 +5,7 @@ import menu from "../products";
 
 const ProductList = () => {
   const displayList = menu.map((item) => {
-    return <ProductItem />;
+    return <ProductItem cookieItem={item} />;
   });
   return <div className="menuSection">{displayList}</div>;
 };

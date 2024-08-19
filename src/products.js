@@ -13,6 +13,12 @@ const menu = [
       "https://makewithmara.com/wp-content/uploads/2023/01/Oreo-Crumbl-Cookies-Featured-Image.jpg",
     price: "6 KD",
   },
+  {
+    name: "Churro cookies",
+    image:
+      "https://lifestyleofafoodie.com/wp-content/uploads/2021/05/Chewy-CRUMBL-Churro-Cookies-Copycat-Recipe-25-of-27-scaled.jpg",
+    price: "6 KD",
+  },
 ];
 
 export default menu;
